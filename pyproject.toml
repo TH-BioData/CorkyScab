@@ -1,0 +1,22 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corky-scab"
+version = "0.1.0"
+description = "Potato corky scab segmentation with K-Means and OpenCV"
+authors = [{name="Tiago Alejo"}]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "scikit-image",
+    "scikit-learn",
+    "matplotlib",
+    "pandas"
+]
+
+[project.urls]
+homepage = "https://example.com"
